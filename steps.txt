@@ -1,0 +1,35 @@
+1- Create an API for users details
+  - these links should exist:
+    - /
+    - /users
+    - /users/:id
+
+  - make sure to create the test cases for the links.
+  - create the prisma model and create the database.
+
+
+{
+  id:
+  firstname:
+  lastname:
+  age:
+  gender:
+}
+
+
+
+-concurrently -d
+-jest -d
+-express
+-nodemon -d
+-prisma -d
+-typescript
+-@prisma/client
+-dotenv -d
+-supertest -d
+-express-async-errors
+-ts-node
+-@types/node
+-@types/express
+
+npm install --save-dev @tsconfig/node18
